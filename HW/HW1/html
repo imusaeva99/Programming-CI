@@ -1,0 +1,47 @@
+<!DOCTYPE HTML>
+<html>
+         <head>
+                 <title>Ирина Муcаева </title>
+	 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta charset="utf-8">
+		<meta name="description" content=“личная страничка">
+                      <!-- Bootstrap Core CSS -->       
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" media="screen">
+          </head>
+     <body>
+<style>
+header {background: beige}
+   .leftimg {float:left; margin: 0px}
+   .rightimg  {float: right; margin: 0px}
+ </style>
+<img src="https://pp.vk.me/c636324/v636324512/26ab1/UmK4pe3n5cM.jpg" width=40% class="rightimg">
+<header style=\'93background-color:beige; padding-top: 3px\'94>
+<h1 align="middle"><font face="klee" color="black"><B>Ирина Мусаева</B></h3><div></div>
+<p align="middle">(Будущий лингвист)</p>
+</header>
+
+<h2 align="middle"><b><span class="glyphicon glyphicon-user"></span>Обо мне </b></h2>
+<h3 align="middle"> Изучение языков всегда представляло для меня огромный интерес, и свою будущую профессию я хочу связать именно с этим   :) </h3>
+
+     <ul><h2 align="middle"><b><span class="glyphicon glyphicon-education"></span> Образование </b><h2>
+<a href="https://hse.ru/" class="navbar-brand"> НИУ ВШЭ <span class="glyphicon glyphicon-chevron-right"></span></a>
+<a href="https://ling.hse.ru/" class="navbar-brand">Школа лингвистики НИУ ВШЭ </a>
+    </ul>
+<br/>
+<br/>
+    <ul><h2 align="middle"><b><span class="glyphicon glyphicon-heart"></span>Интересы</b></h2>
+<h3>
+<li> Лингвистика; </li>
+<li>  Английский язык и британизмы; </li>
+<li>Искусство и культурология; </li>
+<li> Книги и саморазвитие; </li>
+<li> ... </li>
+</h3>
+<br/>
+     <h2 align="middle"><span class="glyphicon glyphicon-envelope"></span><b>Свяжись со мной</b>
+<br/> <br/>
+<a href="https://vk.com/culturevulture"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/VK.com-logo.svg/1024px-VK.com-logo.svg.png" width= 50px></a>
+<a href="https://www.facebook.com/profile.php?id=100012912788508"><img src="https://www.seeklogo.net/wp-content/uploads/2013/11/facebook-flat-vector-logo-400x400.png" width= 50px></a>
+<a href="https://plus.google.com/u/1/106580921088923787764"><img src="http://www.appscare.com/wp-content/uploads/2015/07/google-plus-logo.png" width= 45px></a>
+     </body>
+</html>
