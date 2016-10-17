@@ -1,0 +1,11 @@
+a = int(input())
+b = int(input())
+c = int(input())
+if a + b == c:
+    print(c,'=', a, '+', 'b')
+else:
+    print(c, ' не равно сумме', a, ' и ', b)
+if a • c + b == 0:
+    print(c, '– решение уравнения', str(a) + 'x+', b, '=0')
+else:
+    print(c, 'не является решением', str(a) + 'x+', b, '=0')
