@@ -1,0 +1,9 @@
+a = int(input())
+b = int(input())
+c = int(input())
+if a + b == c:
+    print(c=a+b)
+else: print(c не равно сумме a и b)
+if a * c + b == 0:
+    print(c - решение уравнения ax+b=0)
+else: print(c не является решением уравнения ax+b=0)
