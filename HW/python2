@@ -1,6 +1,0 @@
-s = input()
-while s:
-    for index, letter in enumerate(s):
-        if letter != 'а' and letter != 'к' and index % 2 != 0:
-            print(letter)
-    s = input()
