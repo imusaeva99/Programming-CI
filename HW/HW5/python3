@@ -6,4 +6,4 @@ while word != '':
 for w in words[::-1]:
     a = list(w)
     del a[-3]
-print(''.join(a[::-1]))
+    print(''.join(a[::-1]))
