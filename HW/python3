@@ -1,9 +1,0 @@
-word = input('Введите слово: ')
-words = []
-while word != '':
-    words.append(word)
-    word = input('Введите слово: ')
-for w in words[::-1]:
-    a = list(w)
-    del a[-3]
-print(''.join(a[::-1]))
