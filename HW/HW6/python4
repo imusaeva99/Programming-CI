@@ -1,0 +1,6 @@
+a = list(input("Введите слово: "))
+print(''.join(a))
+table = []
+for i in range(len(a)):
+    del a[-1]
+    print(''.join(a))
