@@ -1,0 +1,15 @@
+with open('freq2.txt', 'r', encoding='utf-8') as f:
+    lines = f.readlines()
+
+    for line in lines:
+        line = line.strip()
+        w, m = line.split('|', 1)
+        m, n = m.split('|', 1)
+        w = w.strip()
+        m = m.strip()
+        n = n.strip()
+        if m == 'союз':
+            print(line)
+        else:
+            continue
+
