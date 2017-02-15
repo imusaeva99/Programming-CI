@@ -6,10 +6,10 @@ def open_html(fname):
     with open(fname, 'r', encoding='utf-8') as f:
         text = f.read()
     te = re.sub(u'<.*?(".*?")?.*?>', u'', text, flags = re.U)
-    te2 = re.sub(u'<script>(.*?)</script>', u'', te, flags = re.U)
-    te3 = re.sub(u'<style>(.*?)</style>', u'', te2, flags = re.U)
-    te4 = re.sub(u'<head>(.*?)</head>', u'', te3, flags = re.U)
-    return te3
+    te2 = re.sub(u'<script>.*?</script>', u'', te, flags = re.U)
+    te3 = re.sub(u'<style>.*?</style>', u'', te2, flags = re.U)
+    te4 = re.sub(u'<head>.*?</head>', u'', te3, flags = re.U)
+    return te4
 
 def changeform(fname):
     te = open_html(fname)
