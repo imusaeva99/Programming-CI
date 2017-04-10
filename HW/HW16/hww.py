@@ -21,7 +21,7 @@ def find8():
         words = [str(w).strip('?!&(),.:;«»\n”“ ') for w in words]
         greater = []
         greater += [w for w in words if len(w) > 7]
-        template = '{} {:->10} {}'
+        template = '{} {:->10}'
         for g in greater:
             print(template.format(g,len(g)))
     return 
